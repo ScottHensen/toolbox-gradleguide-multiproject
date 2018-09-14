@@ -14,11 +14,14 @@ This template is the result of the Gradle Guide found here:
 
 ### How to build:
 - Build the whole project:  
-
+   ```   
    /multi-project-gradle> gradlew build          
-
+   ```   
 - Build just one of the sub-projects:  
-
+   ```   
    /multi-project-gradle> gradlew :greeter:build  
+   ```   
    -or-  
+   ```
    /multi-project-gradle/greeter> gradlew build  
+   ```  
